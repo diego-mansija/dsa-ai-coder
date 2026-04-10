@@ -1,6 +1,6 @@
 Estudo de Caso 1 - Assistente de Programação Especialista em Python (DSA AI Coder)
 
-Este projeto consiste no desenvolvimento de um Agente de Inteligência Artificial Generativa especializado em suporte técnico para desenvolvedores Python. A aplicação utiliza a infraestrutura de alta performance da API Groq para processar modelos de linguagem de larga escala (LLMs), fornecendo respostas estruturadas que incluem explicações conceituais, blocos de código otimizados e referências à documentação oficial.
+Este projeto didático da Data Science Academy consiste no desenvolvimento de um Agente de Inteligência Artificial Generativa especializado em suporte técnico para desenvolvedores Python. A aplicação utiliza a infraestrutura de alta performance da API Groq para processar modelos de linguagem de larga escala (LLMs), fornecendo respostas estruturadas que incluem explicações conceituais, blocos de código otimizados e referências à documentação oficial.
 
 O foco principal foi construir uma ferramenta de interface rica (Streamlit) que gerencia o ciclo de vida de uma conversa (Session State) e aplica técnicas de System Prompting para garantir que a IA mantenha um comportamento estritamente técnico e didático. O sistema foi projetado para auxiliar desde a resolução de bugs até a explicação de estruturas de dados complexas, seguindo padrões de codificação profissional.
 
@@ -51,3 +51,7 @@ Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (o
 
     conda deactivate
     conda remove --name dsaec1 --all
+
+Acesse o app aqui:
+
+[https://dsa-ai-coder-diego.streamlit.app/#assistente-pessoal-de-programacao-python](https://dsa-ai-coder-diego.streamlit.app/#assistente-pessoal-de-programacao-python)
