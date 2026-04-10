@@ -1,10 +1,10 @@
-# Estudo de Caso 1 - Assistente de Programação Especialista em Python (DSA AI Coder)
+Estudo de Caso 1 - Assistente de Programação Especialista em Python (DSA AI Coder)
 
-# Este projeto consiste no desenvolvimento de um Agente de Inteligência Artificial Generativa especializado em suporte técnico para desenvolvedores Python. A aplicação utiliza a infraestrutura de alta performance da API Groq para processar modelos de linguagem de larga escala (LLMs), fornecendo respostas estruturadas que incluem explicações conceituais, blocos de código otimizados e referências à documentação oficial.
+Este projeto consiste no desenvolvimento de um Agente de Inteligência Artificial Generativa especializado em suporte técnico para desenvolvedores Python. A aplicação utiliza a infraestrutura de alta performance da API Groq para processar modelos de linguagem de larga escala (LLMs), fornecendo respostas estruturadas que incluem explicações conceituais, blocos de código otimizados e referências à documentação oficial.
 
-# O foco principal foi construir uma ferramenta de interface rica (Streamlit) que gerencia o ciclo de vida de uma conversa (Session State) e aplica técnicas de System Prompting para garantir que a IA mantenha um comportamento estritamente técnico e didático. O sistema foi projetado para auxiliar desde a resolução de bugs até a explicação de estruturas de dados complexas, seguindo padrões de codificação profissional.
+O foco principal foi construir uma ferramenta de interface rica (Streamlit) que gerencia o ciclo de vida de uma conversa (Session State) e aplica técnicas de System Prompting para garantir que a IA mantenha um comportamento estritamente técnico e didático. O sistema foi projetado para auxiliar desde a resolução de bugs até a explicação de estruturas de dados complexas, seguindo padrões de codificação profissional.
 
-# Funcionalidades e Competências Demonstradas
+Funcionalidades e Competências Demonstradas
 
     Integração de LLMs via API: Implementação de conexão robusta com a plataforma Groq, utilizando modelos de baixa latência para respostas em tempo real.
 
@@ -16,39 +16,36 @@
 
     Arquitetura Streamlit: Design de interface focado em experiência do usuário, utilizando barras laterais para configurações e janelas de chat nativas para interação.
 
-# Instalação
+Instalação
 
-# Este projeto foi desenvolvido usando Anaconda. Vá até [https://www.anaconda.com/download](https://www.anaconda.com/download) e baixe o executável próprio para o seu SO.
+Este projeto foi desenvolvido usando Anaconda. Vá até [https://www.anaconda.com/download](https://www.anaconda.com/download) e baixe o executável próprio para o seu SO.
 
-# Este projeto exige uma API key Groq. Vá até [https://console.groq.com/keys](https://console.groq.com/keys) para obter uma chave válida.
+Este projeto exige uma API key Groq. Vá até [https://console.groq.com/keys](https://console.groq.com/keys) para obter uma chave válida.
 
-# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
 
-conda create -n dsa-ai-coder python=3.13
+    conda create -n dsa-ai-coder python=3.13
 
-# Ative o ambiente:
+Ative o ambiente:
 
-conda activate dsaec1 (ou: source activate dsaec1)
+    conda activate dsaec1 (ou: source activate dsaec1)
 
-# Instale o pip e as dependências:
+Instale o pip e as dependências:
 
-conda install pip
-pip install -r requirements.txt 
+    conda install pip
+    pip install -r requirements.txt
 
-# Execute a app:
+Execute a app:
 
-streamlit run dsa_assistente.py
+    streamlit run dsa_assistente.py
 
-# Exemplos de uso do assistente:
+Exemplos de uso do assistente:
 
-# Como crio um hello world em Python?
-# Qual a sintaxe de um loop em Python?
-# Como eu uso a função map em Python? Me dê um exemplo com lambda.
+Como crio um hello world em Python?
+Qual a sintaxe de um loop em Python?
+Como eu uso a função map em Python? Me dê um exemplo com lambda.
 
-# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
 
-conda deactivate
-conda remove --name dsaec1 --all
-
-
-
+    conda deactivate
+    conda remove --name dsaec1 --all
