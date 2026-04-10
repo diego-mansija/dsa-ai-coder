@@ -18,7 +18,9 @@ Funcionalidades e Competências Demonstradas
 
 Instalação
 
-Este projeto foi desenvolvido usando Anaconda. Vá até [https://www.anaconda.com/download](https://www.anaconda.com/download) e baixe o executável próprio para o seu SO.
+Este projeto foi desenvolvido usando Anaconda. Para rodar localmente, vá até [https://www.anaconda.com/download](https://www.anaconda.com/download) e baixe o executável próprio para o seu SO.
+
+Para deploy, foi usado VS Code + .venv.
 
 Este projeto exige uma API key Groq. Vá até [https://console.groq.com/keys](https://console.groq.com/keys) para obter uma chave válida.
 
