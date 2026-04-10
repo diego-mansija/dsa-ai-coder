@@ -41,9 +41,9 @@ Execute a app:
 
 Exemplos de uso do assistente:
 
-Como crio um hello world em Python?
-Qual a sintaxe de um loop em Python?
-Como eu uso a função map em Python? Me dê um exemplo com lambda.
+    Como crio um hello world em Python?
+    Qual a sintaxe de um loop em Python?
+    Como eu uso a função map em Python? Me dê um exemplo com lambda.
 
 Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
 
